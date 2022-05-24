@@ -64,4 +64,4 @@ Kafka permite comunicar cosas que suceden entre microservicios productores y con
 
 * Teniendo a disposicion Kafka y el backend utilizado ¿Que se podria hacer para manejar una gran cantidad de usuarios al mismo tiempo?
 
-Ya que Kafka usa brokers, para manejar una gran cantidad de usuarios solamente se necesita aumentar estos.
+Ya que Kafka usa brokers, para manejar una gran cantidad de usuarios solamente se necesita aumentar estos. Al realizar esto, se lograra un mayor nivel de particion de datos junto con balancear la carga almacenada
