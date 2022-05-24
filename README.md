@@ -59,6 +59,9 @@ Cabe decir que el almacenamiento de los datos es en REDIS, logrando asi que los 
 # Analisis
 
 * ¿Por qué Kafka funciona bien en este escenario? 
+
+Kafka permite comunicar cosas que suceden entre microservicios productores y consumidores en tiempo real. Pensando en esta definicion, se prodria decir que Kafka esta diseñado para la comunicacion entre microservicios por lo cual, en esta tarea se puede usar perfectamente para comunicar el login de un usuario y/o reportarlo, en este caso por los multiples intentos de acceso que este puede tener.
+
 * Teniendo a disposicion Kafka y el backend utilizado ¿Que se podria hacer para manejar una gran cantidad de usuarios al mismo tiempo?
 
-
+Ya que Kafka usa brokers, para manejar una gran cantidad de usuarios solamente se necesita aumentar estos.
